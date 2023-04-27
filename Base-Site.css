@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Gugi&display=swap');
+
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+
+
+
+
+
+.cabecalho{
+    
+    width: 100%;
+    height: 93px;
+    display: flex;    
+    background: #000000;    
+
+}
+
+.cabecalho_menu{
+    position: relative;
+    left: 350px;
+    top: 46px;
+    display: flex;
+    gap: 80px;
+
+}
+
+.cabecalho_menu_link{
+    
+    
+    
+    font-family: 'Gugi';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    text-decoration: none;
+    
+    color: #FFFFFF;
+
+}
+
+.download{
+    
+
+    position: absolute;
+    width: 180px;
+    height: 41px;
+    left: 1200px;
+    top: 38px;
+    
+    background: #46B4CF;
+    border-radius: 94px;
+
+    
+   
+}
+.download_botao{
+    
+    position: absolute;
+width: 142px;
+height: 26px;
+left: 1220px;
+top: 45px;
+
+font-family: 'Gugi';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 30px;
+text-decoration: none;
+
+color: #FFFFFF;
+
+    font-family: 'Gugi';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    
+    color: #FFFFFF;
+}
+
+.logo{
+
+position: absolute;
+width: 201px;
+height: 93px;
+left: 0px;
+top: 0px;
+}
+
+.fundo{
+
+position: absolute;
+width: 100%;
+display: flex;
+left: 0px;
+top: 45px;
+}
+
+
+
+  

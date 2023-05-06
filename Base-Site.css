@@ -101,11 +101,11 @@
 
     position: absolute;
     width: 100%;
-    height: 1442px;
+    display: flex;
     left: 0px;
-    top: 46px;
+    top: 45px;
 
-    background: url(trabalhos_escolares_arco_e_flecha.png)
+    
 }
 
 .container-slide {
@@ -134,25 +134,37 @@
 
 }
 
-.logocentro2 {
-    position: absolute;
-    width: 100%;
-    height: 500px;
-    top: 300px;
-    background: rgba(0, 0, 0, 0.71);
-    opacity: 60%;
-}
-
-.bloco-requisito {
+.logocentro{
 
     position: absolute;
-    width: 1250px;
-    height: 150px;
-    left: 49px;
-    top: 825px;
     background: rgba(0, 0, 0, 0.71);
+     top: 300px;
+     width: 30%;
+    left: 450px;
+    display: block;
+     display: flex;
+     opacity: 60%;
+    
+    }
+    .logocentro2{
+        position: absolute;
+        width: 100%;
+        height: 500px;
+        top: 300px;
+        background: rgba(0, 0, 0, 0.71);
+        opacity: 60%;
+    }
 
-}
+    .bloco-requisito {
+
+        position: absolute;
+        width: 1250px;
+        height: 150px;
+        left: 49px;
+        top: 825px;
+        background: rgba(0, 0, 0, 0.71);
+    
+    }
 
 .historia1 {
     position: absolute;
